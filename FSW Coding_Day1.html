@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>FSW Coding Day 1</title>
+</head>
+<body>
+   <main id="background">
+      <!--Start Navigation Header-->
+      <nav id="navbar">
+         <h1 id="logo-text">Logo</h1>
+         <ul id="list-menu">
+            <li class="list-menu-item">Home</li>
+            <li class="list-menu-item">Work</li>
+            <li class="list-menu-item">Contact</li>
+            <li class="list-menu-item">About Me</li>
+         </ul>
+         <div>
+            <button class="auth-button">Sign Up</button>
+            <button class="auth-button">Login</button>
+         </div>
+      </nav>
+      <!--End of Navigation browser-->
+   </main>
+</body>
+<!--Ini inline style saya-->
+<style>
+   body{
+      margin:0px;
+   }
+   #background {
+      background-image: url(./main-bg.jpg);
+      /*background-repeat: no-repeat; */
+      background-size: cover;
+      width:100vw;
+      height:100vh;
+   }
+   #navbar {
+      /*background-color: red; */
+      background:rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+   #logo-text {
+      padding-left: 40px;
+      /* background-color: blue; */
+   }
+   #list-menu{
+      /* background-color: green; */
+      display: flex;
+      list-style-type: none;
+      gap: 20px;
+   }
+   .list-menu-item{
+      color:white;
+   }
+   #login-and-signup-container{
+      /* background-color: yellow; */
+   }
+   #logo-text{
+      color:white;
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 33px;
+      letter-spacing: 0.1em;
+      text-align: left;
+   }
+   .auth-button {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 16px;
+      letter-spacing: 0.1em;
+      text-align: right;
+      color: #ffffff;
+      background-color: transparent;
+      padding: 0;
+      border: none;
+      background: none;
+   }
+   #login-and-signup-container{
+      display: flex;
+      gap: 20px;
+      padding-right: 40px;
+   }
+</style>
+</html>
